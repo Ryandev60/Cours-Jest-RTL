@@ -1,5 +1,5 @@
 import "./App.css";
-import Animal from "./components/GetByRole/Animal/Animal";
+import Animal from "./components/Queries/GetByRole/GetByRole";
 
 function App() {
    return (

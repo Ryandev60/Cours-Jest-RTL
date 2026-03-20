@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function Animal() {
+export default function GetByRole() {
    return (
       <section>
          <h1>Adopter un animal</h1>

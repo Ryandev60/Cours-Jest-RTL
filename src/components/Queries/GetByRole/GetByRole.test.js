@@ -1,9 +1,9 @@
 import { render, screen } from "@testing-library/react";
-import Animal from "./Animal";
+import GetByRole from "./GetByRole";
 
 describe("renders animal component", () => {
    test("renders heading", () => {
-      render(<Animal />);
+      render(<GetByRole />);
 
       const h1Element = screen.getByRole("heading", { level: 1 });
       expect(h1Element).toBeInTheDocument();

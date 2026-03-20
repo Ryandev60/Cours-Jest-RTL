@@ -1,11 +1,11 @@
 import "./App.css";
-import Animal from "./components/Queries/GetByRole/GetByRole";
+import GetByPlaceholderText from "./components/Queries/GetByPlaceholderText/GetByPlaceholderText";
 
 function App() {
    return (
       <div className="App">
          <main>
-            <Animal />
+            <GetByPlaceholderText />
          </main>
       </div>
    );
